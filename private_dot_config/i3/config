@@ -30,12 +30,6 @@ exec --no-startup-id numlockx off
 # Setup audio drivers
 exec "pulseaudio --start"
 
-# Workspace 1 on left Asus screen
-workspace 1 output eDP-1
-workspace 2 output DP-1-2
-workspace 3 output DP-1-1
-
-
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork

@@ -11,8 +11,8 @@
 	find = "!git log --color -p -S "
 	staash = stash --all
 [user]
-	email = Amir.Boussejra@viavisolutions.com
-	name = Aboussejra
+	email = amir@boussejra.com
+	name = Amir Boussejra
 [core]
 	editor = vim
 [merge]
